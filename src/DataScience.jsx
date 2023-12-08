@@ -21,11 +21,11 @@ function DataScience(props) {
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="" className=" justify-content-center">
       <Nav  variant="underline" defaultActiveKey="/DataScience">
-      <Nav.Link  to="/"> <h3>All</h3> </Nav.Link>
-      <Nav.Link to="/FSD"><h3>FullStack Deveploment</h3></Nav.Link>
-      <Nav.Link to="/DataScience"><h3>DataScience</h3></Nav.Link>
-      <Nav.Link to="/CyberSecurity"><h3>CyberSecurity</h3></Nav.Link>
-      <Nav.Link to="/Career"><h3>Career</h3></Nav.Link>
+      <Nav.Link  href="/"> <h3>All</h3> </Nav.Link>
+      <Nav.Link href="/FSD"><h3>FullStack Deveploment</h3></Nav.Link>
+      <Nav.Link href="/DataScience"><h3>DataScience</h3></Nav.Link>
+      <Nav.Link href="/CyberSecurity"><h3>CyberSecurity</h3></Nav.Link>
+      <Nav.Link href="/Career"><h3>Career</h3></Nav.Link>
         
       </Nav>
     </Navbar.Collapse>
